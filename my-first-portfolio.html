@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo.jpg" alt="Logo de Alfredo Soto Nolazco" class="logo">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">Bienvenida</a></li>
+                <li><a href="#about-me">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome-section">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p>Hola, soy Alfredo Soto Nolazco, un desarrollador web apasionado por crear soluciones innovadoras.</p>
+        <img src="assets/images/foto1.jpg" alt="Foto de Alfredo Soto Nolazco">
+    </section>
+
+    <section id="about-me">
+        <h2>Sobre Mí</h2>
+        <p>Tengo experiencia en desarrollo web, incluyendo HTML, CSS, JavaScript y frameworks como React y Angular.</p>
+        <p>He trabajado en varios proyectos que abarcan desde sitios web personales hasta aplicaciones empresariales.</p>
+        <a href="assets/docs/curriculum.pdf" target="_blank">Ver mi Curriculum</a>
+    </section>
+
+    <section id="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="project-tile">
+            <a href="https://github.com/tu-usuario/tu-proyecto" target="_blank">Proyecto 1</a>
+        </div>
+        <!-- Puedes añadir más proyectos aquí -->
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
